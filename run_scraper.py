@@ -94,8 +94,3 @@ def extract_EOD_data(url, *ignore, report_type):
   return clean_update_data(pdf_data, pdf_date, report_type=report_type)
 
 # extract_EOD_data("https://documents.pse.com.ph/market_report/February%2026,%202024-EOD.pdf", report_type="daily")
-
-def test_form_submission(url, type):
-  print(url)
-  print(type)
-  return
