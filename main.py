@@ -24,4 +24,3 @@ def submit_form():
 
     return jsonify(response), 200
 
-
