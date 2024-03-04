@@ -6,10 +6,6 @@ from run_scraper import extract_EOD_data
 app = Flask(__name__)
 CORS(app)
 
-@app.route("/")
-def hello_world():
-    return "<p>Hello!</p>"
-
 @app.route("/api/submit-form", methods=["POST"])
 def submit_form():
     data = request.json
